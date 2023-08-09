@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    
+    <form>
+       <b> Username:</b> <input type="text"
+        id="username"
+        placeholder="enter username"
+        size="30"
+        maxlength="25" required> <br> <br>
+
+        Password: <input type="password"
+        id="password"
+        placeholder="enter password"
+        > <br> <br>
+
+        Gender:   Male <input type="radio"  name="Gender"> 
+                  Female <input type="radio"  name="Gender">
+                  Other <input type="radio"  name="Gender">
+        <br> <br>
+
+        Hobbies:    Drawing <input type="checkbox" name="drawing">
+                    Sports <input type="checkbox"  name="sports">  
+                    
+         <br> <br>          
+         Course : 
+         <select name="course">
+            <option value="CS"> CS </option>
+            <option value="IT"> IT </option>
+            <option value="Elect"> Elect </option>
+            <option value="Aiml"> Aiml </option>
+         </select>  
+         
+         <br> <br>   
+
+        Address: <textarea cols="40" rows="3"></textarea>
+
+        <br> <br>  
+
+      Attacch File :  <input type="file">
+     
+        <br> <br>
+        <fieldset>
+            Parent/Guadian details: <input type="text" name="" id=""> <br> <br>
+             Phone no:               <input type="tel">
+        </fieldset>
+
+        <!-- HTML5 tags-->
+
+        <input type="color"> <br> 
+        <input type="datetime-local"> <br> 
+        <input type="email"> <br> 
+        <input type="month"> <br> 
+        <input type="number"> <br> 
+        <input type="time" > <br> 
+        <input type="url" > <br> 
+        <input type="range"  min="0" max="50"> <br> 
+        <input type="tel" pattern="[a-z]{5}-[a-z]{7}"> e.g. 91-xxxx
+
+        <br> <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <!-- audio n video tags -->
+
+    <h3>song</h3>
+
+    <a href="about.html"></a>
+
+    <audio controls>
+        <source src="Ae Mere Humsafar.mp3" type="audio/mp3">
+    </audio>
+
+</body>
+</html>
